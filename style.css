@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+/*Aviral Sharma*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+
+    margin: 0;
+    padding: 0;
+   
+}
+.main{
+    width:100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(background.jpg);   
+    background-position: fixed;
+    background-size: cover;
+    height: 123vh;
+
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: rgb(30, 21, 21);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+ul li a:hover{
+    color: orangered;
+    transition: 0.4s;
+
+}
+.search{
+    width: 10px;
+    float: left;
+    margin-left: 310px;
+
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 3f0px;
+    background: transparent;
+    border: 1px solid orangered;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+
+}
+.search .bttn{
+    width: 100%;
+    height: 40px;
+    background: orange;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+    }
+.srch:focus{
+    outline: none;   
+
+}   
+.cont{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+
+}
+.cont .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+}
+.cont h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+}
+.cont .cn{
+    width: 160px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+.cont .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .4s ease;
+}
+.cn:hover{
+    background-color: white;
+
+    
+}
+.cont span{
+    color: orangered;
+    font-size: 60px;
+    
+}
+
+.ab{
+    display: flex;
+    margin-top: 100px;
+}
+
+/* Vansh Jain */
+
+.container{
+    margin-top: 50px;
+}
+.container>h1{
+    font-size: 50px;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#ayur,.know{
+    margin-left: 20px;
+    display:grid;
+    gap: 20px;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+
+.know{
+    display: none;
+}
+.know.active{
+    display: grid;
+    transition: 0.4s;
+    margin-top: 20px;
+}
+.card{
+    width: 290px;
+    height: 290px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.card img{
+    width: 290px;
+    height: 290px;
+    transition: all 0.3s;
+}
+.container button,.btn2{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition:  0.4s;
+    color: orangered;
+    font-weight: bold;
+}
+.btn.active{
+    display: none;
+}
+.btn2{
+    display: none;
+}
+.btn2.active{
+    display: block;
+
+}
+/* .btn.active .know{
+    margin-top: 50px;
+} */
+.container button:hover{
+    background-color: orangered;
+    color: white;
+}
+.content{
+    position: absolute;
+    bottom: -185px;
+    left: 10px;
+    color: #ffffff;
+    transition: all 0.3s;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: justify;
+}
+.content h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.content p{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.card:hover .content{
+    bottom: 10px;
+}
+.card:hover img{
+    filter: brightness(0.6);
+}
+
+.get{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0, 191, 0, 0.388);
+    padding-bottom: 30px;
+}
+.get h1{
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+.tou h3{
+    font-size: 30px;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.tou{
+    display: flex;
+    gap:100px;
+    font-size: 20px;
+}
+.address,.phone,.em{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 200px;
+}
+
+/* ChatBot */
+
+/* #chat-container {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-weight: lighter;
+}
+#chat-container{
+    text-align: center;
+    font-size: 10px;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#chat-box {
+    height: 100px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+#chat-log {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user-message {
+    background-color: #007bff;
+    color: #fff;
+    text-align: right;
+}
+
+.bot-message {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+#user-input {
+    width: 80%;
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+}
+
+#send-btn {
+    width: 20%;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+} */
